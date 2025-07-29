@@ -12,4 +12,11 @@ Monitors average CPU usage per core over a specified time period.
 -  Sampling interval: 10 seconds
 -  Outputs average CPU usage for each core
 
+### 2. `network_monitor.sh`
+Monitors per-interface network activity over a given time window.
+
+-  Default duration: 300 seconds
+-  Measures received/sent bytes and packet counts
+-  Calculates average packet size
+
 
